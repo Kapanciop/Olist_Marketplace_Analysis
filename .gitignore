@@ -1,0 +1,12 @@
+# Raw data is not stored in the repo (download from Kaggle; see README)
+data/raw/*
+!data/raw/.gitkeep
+
+# Local database (can exceed GitHub's file size limit)
+*.db
+*.sqlite
+
+# Temp and system files
+~$*
+.DS_Store
+Thumbs.db
